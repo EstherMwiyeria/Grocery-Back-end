@@ -16,8 +16,7 @@ def upload_discount(request):
      
     return render(request,'discount/discount_upload.html',{'form':form})
    
-    # render accepts a request and the template where its going to render the request and the data to render
-    # and the third is the data to be uploaded
+ 
 def discount_list(request):
     discounts=Discount.objects.all()
     return render(request,'discount/discount_list.html',{'discounts':discounts})

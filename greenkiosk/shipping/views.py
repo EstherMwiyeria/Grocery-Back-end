@@ -15,8 +15,7 @@ def upload_shipping(request):
      
     return render(request,'shipping/shipping_upload.html',{'form':form})
    
-    # render accepts a request and the template where its going to render the request and the data to render
-    # and the third is the data to be uploaded
+   
 def shipping_list(request):
     shipping=Shipping.objects.all()
     return render(request,'shipping/shipping_list.html',{'shippings':shipping})

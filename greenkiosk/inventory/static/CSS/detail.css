@@ -9,13 +9,13 @@ body {
   .card {
     max-width: 400px;
     margin: 0 auto;
-    background-color: #097017;
+    background-color: #9c9e9c;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
   }
   h4 {
-    color: #1fa32a;
+    color: #d010d6;
     margin-bottom: 10px;
   }
   img {
@@ -34,7 +34,7 @@ body {
     margin-bottom: 10px;
   }
   button {
-    background-color: #268b0d;
+    background-color: #5b615a;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -42,7 +42,7 @@ body {
     cursor: pointer;
   }
   button:hover {
-    background-color: #2da514;
+    background-color: #222721;
   }
 
 

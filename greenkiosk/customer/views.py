@@ -5,7 +5,7 @@ from .models import Customer
 # Create your views here.
 
 
-def upload_customer(request):
+def customer_upload(request):
     if request.method == 'POST':
         form = CustomerUploadForm(request.POST, request.FILES)
         if form.is_valid():

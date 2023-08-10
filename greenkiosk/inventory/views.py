@@ -14,9 +14,7 @@ def upload_product(request):
       form = ProductUploadForm()
      
     return render(request,'inventory/product_upload.html',{'form':form})
-   
-    # render accepts a request and the template where its going to render the request and the data to render
-    # and the third is the data to be uploaded
+ 
 def product_list(request):
     products=Product.objects.all()
     return render(request,'inventory/products_list.html',{'products':products})
